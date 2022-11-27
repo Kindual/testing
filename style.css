@@ -1,0 +1,63 @@
+ul, p, h1, h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    font-size: 16px;
+    padding: 0 30px;
+}
+.section {
+    position: relative;
+    width: 365px;
+    height: 320px;
+
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+
+    border: solid 1px;
+    opacity: 0.8;
+    /* backdrop-filter: blur(4.5px); */
+    border-radius: 39px;
+}
+
+.like {
+    position: absolute;
+    top: 42px;
+    right: 30px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.place {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.a-date {
+    font-size: 16px;
+}
+
+
+.list {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.temperature {
+    font-size: 74px;
+
+}
